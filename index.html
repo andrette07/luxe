@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Luxe Beauty & Wellness Co. — Riverview, NB</title>
+<meta name="description" content="Luxe Beauty & Wellness Co. — a beauty and wellness salon in Riverview, New Brunswick. Skincare, lashes, hair, laser, Japanese head spa and more.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Work+Sans:wght@300;400;500&display=swap">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header id="site-header">
+  <a href="#home" class="logo-link" data-nav="home">
+    <img src="assets/logo-without-slogan.png" alt="Luxe Beauty & Wellness Co.">
+  </a>
+  <nav class="desktop-nav" aria-label="Primary">
+    <a href="#home"       class="mono nav-link" data-nav="home">Home</a>
+    <a href="#services"   class="mono nav-link" data-nav="services">Services</a>
+    <a href="#philosophy" class="mono nav-link" data-nav="philosophy">Philosophy</a>
+    <a href="#founder"    class="mono nav-link" data-nav="founder">Founder</a>
+    <a href="#contact"    class="mono nav-link" data-nav="contact">Visit</a>
+  </nav>
+  <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono btn-book">
+    <span class="dot"></span> Book now
+  </a>
+  <button class="mobile-nav-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-ambient" aria-hidden="true">
+      <div class="hero-blob hero-blob-red" data-parallax="1"></div>
+      <div class="hero-blob hero-blob-gold" data-parallax="2"></div>
+      <svg class="hero-rings" viewBox="0 0 520 520">
+        <defs>
+          <linearGradient id="goldline" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#E3CC91" stop-opacity="0"/>
+            <stop offset="0.5" stop-color="#C9A961" stop-opacity="1"/>
+            <stop offset="1" stop-color="#C9A961" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <circle cx="260" cy="260" r="240" fill="none" stroke="url(#goldline)" stroke-width="0.7" class="ring ring-slow"/>
+        <circle cx="260" cy="260" r="200" fill="none" stroke="url(#goldline)" stroke-width="0.5" class="ring ring-rev"/>
+      </svg>
+    </div>
+
+    <div class="hero-left reveal">
+      <div class="mono hero-pill">
+        <span class="pulse-dot"></span> Welcome to Luxe
+      </div>
+
+      <h1 class="display hero-headline">
+        <span>Beauty</span>
+        <span>+ Wellness</span>
+        <span>Salon</span>
+      </h1>
+
+      <div class="hero-rule"><span></span></div>
+
+      <p class="hero-lede">
+        Skincare as ritual. Beauty as a quiet dialogue between artist and guest.
+      </p>
+      <p class="hero-sub">
+        Unhurried hours. Expert hands. A private space where the music is low and the work is meticulous.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono btn-primary hoverable">
+          Reserve your ritual
+          <svg width="16" height="10" viewBox="0 0 16 10"><path d="M0,5 L14,5 M10,1 L14,5 L10,9" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+        </a>
+        <a href="#services" class="mono link-underline" data-nav="services">Explore services</a>
+      </div>
+    </div>
+
+    <div class="hero-right" data-parallax="3">
+      <div class="portrait-float">
+        <div class="portrait-frame">
+          <div class="portrait-inner-border"></div>
+          <div class="portrait-image-wrap">
+            <img src="assets/founder-cream.jpg" alt="Luxe atelier">
+          </div>
+        </div>
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+      </div>
+
+      <div class="stamp">
+        <svg viewBox="0 0 124 124" class="stamp-svg">
+          <defs><path id="circ" d="M 62,62 m -48,0 a 48,48 0 1,1 96,0 a 48,48 0 1,1 -96,0"/></defs>
+          <text font-size="9" fill="#E3CC91" font-family="Work Sans" letter-spacing="4">
+            <textPath href="#circ">LUXE BEAUTY AND WELLNESS CO · </textPath>
+          </text>
+        </svg>
+        <div class="stamp-center">
+          <img src="assets/Iconography-1.png" alt="" class="stamp-icon">
+        </div>
+      </div>
+
+      <aside class="quote-card">
+        <div class="mono mono-sm quote-label">⁂ INSIDE LUXE</div>
+        <div class="quote-body">Hair, skin, aesthetics, and restorative beauty — considered side by side in Riverview.</div>
+        <div class="mono mono-sm quote-by">LUXE BEAUTY &amp; WELLNESS CO.</div>
+      </aside>
+    </div>
+
+    <div class="hero-meta-left mono mono-sm">
+      <span class="muted">SCROLL</span>
+      <span class="slide-rail"><span class="slide-rail-inner"></span></span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <!-- repeated 3x for seamless loop -->
+      <span class="m-item">Brows &amp; Lashes</span><span class="m-sep red">✺</span>
+      <span class="m-item">Hair Extensions</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Colour &amp; Highlights</span><span class="m-sep red">✺</span>
+      <span class="m-item">Laser Hair Removal</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Japanese Head Spa</span><span class="m-sep red">✺</span>
+      <span class="m-item">IPL Skin Rejuvenation</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Microblading</span><span class="m-sep red">✺</span>
+      <span class="m-item">Injections &amp; Fillers</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Skincare</span><span class="m-sep red">✺</span>
+      <span class="m-item">Waxing</span><span class="m-sep gold">✧</span>
+
+      <span class="m-item">Brows &amp; Lashes</span><span class="m-sep red">✺</span>
+      <span class="m-item">Hair Extensions</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Colour &amp; Highlights</span><span class="m-sep red">✺</span>
+      <span class="m-item">Laser Hair Removal</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Japanese Head Spa</span><span class="m-sep red">✺</span>
+      <span class="m-item">IPL Skin Rejuvenation</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Microblading</span><span class="m-sep red">✺</span>
+      <span class="m-item">Injections &amp; Fillers</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Skincare</span><span class="m-sep red">✺</span>
+      <span class="m-item">Waxing</span><span class="m-sep gold">✧</span>
+
+      <span class="m-item">Brows &amp; Lashes</span><span class="m-sep red">✺</span>
+      <span class="m-item">Hair Extensions</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Colour &amp; Highlights</span><span class="m-sep red">✺</span>
+      <span class="m-item">Laser Hair Removal</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Japanese Head Spa</span><span class="m-sep red">✺</span>
+      <span class="m-item">IPL Skin Rejuvenation</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Microblading</span><span class="m-sep red">✺</span>
+      <span class="m-item">Injections &amp; Fillers</span><span class="m-sep gold">✧</span>
+      <span class="m-item">Skincare</span><span class="m-sep red">✺</span>
+      <span class="m-item">Waxing</span><span class="m-sep gold">✧</span>
+    </div>
+  </div>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="services">
+    <div class="wrap">
+      <div class="services-head">
+        <div class="reveal">
+          <div class="mono muted mb">The Menu</div>
+          <h2 class="display services-title">
+            Rituals,<br>
+            <span class="italic gold-shimmer">not</span> appointments.
+          </h2>
+        </div>
+        <p class="services-intro reveal">
+          Every treatment is performed by one artist, from start to finish — so the rhythm of your visit is never broken. Pricing and durations are available inside our booking system.
+        </p>
+      </div>
+
+      <div class="tabs" role="tablist">
+        <button class="tab mono active" role="tab" data-tab="face"><span class="tab-n">01</span>Face &amp; Skin</button>
+        <button class="tab mono"        role="tab" data-tab="body"><span class="tab-n">02</span>Body</button>
+        <button class="tab mono"        role="tab" data-tab="hair"><span class="tab-n">03</span>Hair</button>
+        <button class="tab mono"        role="tab" data-tab="handsfeet"><span class="tab-n">04</span>Hands &amp; Feet</button>
+        <button class="tab mono"        role="tab" data-tab="wellness"><span class="tab-n">05</span>Wellness</button>
+      </div>
+
+      <div class="tab-panels">
+        <div class="tab-panel active" data-panel="face">
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°01</span>
+            <span class="display s-name">Skincare</span>
+            <span class="s-note">Bespoke facials and skin treatments tailored to your concerns.</span>
+            <span class="mono s-count">5 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°02</span>
+            <span class="display s-name">IPL — Skin Rejuvenation</span>
+            <span class="s-note">Light-based treatments to refine tone, texture and pigmentation.</span>
+            <span class="mono s-count">4 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°03</span>
+            <span class="display s-name">Brows &amp; Lashes</span>
+            <span class="s-note">Lamination, tint, extensions and lift services.</span>
+            <span class="mono s-count">14 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°04</span>
+            <span class="display s-name">Microblading &amp; Powder Brows</span>
+            <span class="s-note">Semi-permanent brow artistry, shaped to the face.</span>
+            <span class="mono s-count">6 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°05</span>
+            <span class="display s-name">Makeup</span>
+            <span class="s-note">Event and occasion makeup.</span>
+            <span class="mono s-count">1 service</span>
+            <span class="s-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="tab-panel" data-panel="body">
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°01</span>
+            <span class="display s-name">Laser Hair Removal</span>
+            <span class="s-note">Targeted, progressive hair reduction across the body.</span>
+            <span class="mono s-count">22 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°02</span>
+            <span class="display s-name">Waxing</span>
+            <span class="s-note">Precision waxing for face and body.</span>
+            <span class="mono s-count">17 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°03</span>
+            <span class="display s-name">Japanese Head Spa</span>
+            <span class="s-note">Ritual scalp and hair therapy. Ages 16 and up.</span>
+            <span class="mono s-count">4 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°04</span>
+            <span class="display s-name">Injections &amp; Fillers</span>
+            <span class="s-note">Medical aesthetic treatments.</span>
+            <span class="mono s-count">2 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="tab-panel" data-panel="hair">
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°01</span>
+            <span class="display s-name">Haircuts</span>
+            <span class="s-note">Cuts considered to the shape of your face and hair type.</span>
+            <span class="mono s-count">3 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°02</span>
+            <span class="display s-name">Colour &amp; Highlights</span>
+            <span class="s-note">Single process, dimensional colour, balayage and beyond.</span>
+            <span class="mono s-count">16 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°03</span>
+            <span class="display s-name">Hair Styling</span>
+            <span class="s-note">Blowouts and occasion styling.</span>
+            <span class="mono s-count">3 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°04</span>
+            <span class="display s-name">Hair Extensions</span>
+            <span class="s-note">Application and maintenance of premium extensions.</span>
+            <span class="mono s-count">14 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°05</span>
+            <span class="display s-name">Perms &amp; Smoothing Treatments</span>
+            <span class="s-note">Texture and smoothing services.</span>
+            <span class="mono s-count">8 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°06</span>
+            <span class="display s-name">Braid, Synthetic Dreads &amp; Extension Art</span>
+            <span class="s-note">Protective, decorative and specialty braid work.</span>
+            <span class="mono s-count">8 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="tab-panel" data-panel="handsfeet">
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°01</span>
+            <span class="display s-name">Hands</span>
+            <span class="s-note">Manicures and hand care services.</span>
+            <span class="mono s-count">8 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°02</span>
+            <span class="display s-name">Feet</span>
+            <span class="s-note">Pedicures and foot care services.</span>
+            <span class="mono s-count">3 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+        </div>
+
+        <div class="tab-panel" data-panel="wellness">
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°01</span>
+            <span class="display s-name">Female Wellness</span>
+            <span class="s-note">Specialty women’s wellness services.</span>
+            <span class="mono s-count">2 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°02</span>
+            <span class="display s-name">Bioidentical Hormone Replacement Therapy Consults</span>
+            <span class="s-note">Consultations for BHRT.</span>
+            <span class="mono s-count">1 service</span>
+            <span class="s-arrow">→</span>
+          </a>
+          <a class="service-row" href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer">
+            <span class="mono mono-sm muted s-n">N°03</span>
+            <span class="display s-name">UV &amp; Sunless Tanning</span>
+            <span class="s-note">Stand-up, lay-down and sunless tanning options.</span>
+            <span class="mono s-count">3 services</span>
+            <span class="s-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="services-foot reveal">
+        <p class="muted italic">Pricing and durations are kept current inside our booking system.</p>
+        <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono btn-outline">View full menu &amp; book ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICE WORLDS ============ -->
+  <section id="worlds" class="worlds">
+    <div class="wrap">
+      <header class="worlds-head">
+        <div class="mono muted reveal">Services</div>
+        <h2 class="display worlds-title reveal">
+          Five worlds,<br><span class="italic">one house.</span>
+        </h2>
+        <p class="worlds-intro reveal">
+          A curated menu across hair, skin, aesthetics, and wellness — grouped by world, so you can find what suits the visit you have in mind.
+        </p>
+      </header>
+
+      <article class="world reveal">
+        <div class="world-media">
+          <img src="assets/model-mirror.jpg" alt="">
+        </div>
+        <div class="world-text">
+          <div class="mono world-n">01 · The Atelier</div>
+          <h3 class="display world-name">Hair <span class="italic">Atelier.</span></h3>
+          <p class="world-lede">
+            The emotional anchor of the house — cut, colour, and styling practiced with restraint and precision.
+          </p>
+          <ul class="world-list">
+            <li>Haircuts</li>
+            <li>Colour &amp; Highlights</li>
+            <li>Hair Styling</li>
+            <li>Hair Extensions</li>
+            <li>Perms &amp; Smoothing</li>
+            <li>Braid, Synthetic Dreads &amp; Extension Art</li>
+            <li>Event &amp; Bridal Makeup</li>
+          </ul>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono world-link">Explore the Atelier →</a>
+        </div>
+      </article>
+
+      <article class="world world-rev reveal">
+        <div class="world-media">
+          <img src="assets/model-skincare.jpg" alt="">
+        </div>
+        <div class="world-text">
+          <div class="mono world-n">02 · Skin</div>
+          <h3 class="display world-name">Skin &amp; <span class="italic">Aesthetics.</span></h3>
+          <p class="world-lede">
+            Considered skincare, brow &amp; lash craft, and permanent-makeup artistry — the quieter end of beauty work.
+          </p>
+          <ul class="world-list">
+            <li>Skincare &amp; Facials</li>
+            <li>Brows &amp; Lashes</li>
+            <li>Microblading &amp; Powder Brows</li>
+            <li>Waxing</li>
+          </ul>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono world-link">Explore Skin &amp; Aesthetics →</a>
+        </div>
+      </article>
+
+      <article class="world reveal">
+        <div class="world-media">
+          <img src="assets/hands-feet.jpg" alt="">
+        </div>
+        <div class="world-text">
+          <div class="mono world-n">03 · Ritual</div>
+          <h3 class="display world-name">Hands, Feet <span class="italic">&amp; Glow.</span></h3>
+          <p class="world-lede">
+            Small rituals with outsized return — the fine detailing at the edges of how you feel.
+          </p>
+          <ul class="world-list">
+            <li>Hands</li>
+            <li>Feet</li>
+            <li>UV Tanning — Lay-Down &amp; Stand-Up</li>
+            <li>Sunless Tanning</li>
+          </ul>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono world-link">Explore Hands, Feet &amp; Glow →</a>
+        </div>
+      </article>
+
+      <article class="world world-rev reveal">
+        <div class="world-media">
+          <img src="assets/model-smile.jpg" alt="">
+        </div>
+        <div class="world-text">
+          <div class="mono world-n">04 · Clinical</div>
+          <h3 class="display world-name">Advanced <span class="italic">Treatments.</span></h3>
+          <p class="world-lede">
+            Light-based skin work, hair reduction, and medical aesthetics — delivered with a consultation-first approach and unhurried aftercare.
+          </p>
+          <ul class="world-list">
+            <li>IPL — Skin Rejuvenation</li>
+            <li>Laser Hair Removal</li>
+            <li>Injections &amp; Fillers</li>
+          </ul>
+          <div class="world-trust mono mono-sm">
+            <span class="pip"></span> Consultation-first. Candidacy assessed before every treatment.
+          </div>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono world-link">Book a consultation →</a>
+        </div>
+      </article>
+
+      <article class="world reveal">
+        <div class="world-media">
+          <img src="assets/model-seated.jpg" alt="">
+        </div>
+        <div class="world-text">
+          <div class="mono world-n">05 · Wellness</div>
+          <h3 class="display world-name">Women's <span class="italic">Wellness.</span></h3>
+          <p class="world-lede">
+            Discreet, restorative services held in a private setting — for the parts of self-care that deserve more than a checklist.
+          </p>
+          <ul class="world-list">
+            <li>Female Wellness</li>
+            <li>Bioidentical Hormone Replacement Therapy Consults</li>
+            <li>Japanese Head Spa <span class="muted">(16+)</span></li>
+          </ul>
+          <div class="world-trust mono mono-sm">
+            <span class="pip"></span> Private consultations. Confidentiality as standard.
+          </div>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono world-link">Arrange a consultation →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PHILOSOPHY ============ -->
+  <section id="philosophy" class="philosophy">
+    <div class="philosophy-bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="mono philosophy-kicker reveal">Philosophy</div>
+      <h2 class="display philosophy-title reveal">
+        Beauty is a <em>conversation</em>—<br>
+        held in low light, at an unhurried tempo,<br>
+        between an artist and the person in her chair.
+      </h2>
+
+      <div class="phil-grid">
+        <div class="phil-card reveal">
+          <div class="display phil-n">I</div>
+          <div class="display phil-t">Quiet Luxury</div>
+          <p class="phil-d">Restraint over excess. A space designed for pause — where every detail is intentional, from the grain of the marble to the tempo of the music.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="display phil-n">II</div>
+          <div class="display phil-t">Science &amp; Soul</div>
+          <p class="phil-d">Clinical efficacy meets ritual. Our protocols are rooted in evidence, performed with the patience of an artisan.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="display phil-n">III</div>
+          <div class="display phil-t">Made by Hand</div>
+          <p class="phil-d">No conveyor belts, no shortcuts. Small bookings, unhurried hours, and artists who remember your name, your skin, your story.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section id="founder" class="founder">
+    <div class="wrap">
+      <div class="fd-grid">
+        <div class="fd-text">
+          <div class="mono muted mb reveal">The Founder</div>
+          <h2 class="display fd-title reveal">
+            Ashley<br><span class="italic">McDavid.</span>
+          </h2>
+          <p class="fd-lede reveal">
+            Ashley founded Luxe on a simple idea — that beauty work should feel like a visit to a tailor: quiet, specific, and entirely about the person in the room.
+          </p>
+          <p class="fd-sub reveal">
+            Luxe is a house of hair, skin, aesthetics, and wellness services practiced side by side — with a menu edited by hand.
+          </p>
+        </div>
+
+        <div class="fd-image reveal">
+          <img src="assets/founder-black.jpg" alt="Ashley McDavid, Founder">
+          <div class="fd-tag">
+            <span class="mono mono-sm">PORTRAIT</span>
+          </div>
+          <div class="fd-vert mono mono-sm">A. MCDAVID — FOUNDER &amp; CREATIVE DIRECTOR</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials">
+    <div class="wrap-sm">
+      <div class="mono muted t-kicker"><span class="red">※</span> In their words</div>
+      <div class="t-stage">
+        <div class="t-slide active">
+          <div class="t-quote"><span class="t-mark">“</span>Luxe treats skin like an art form — and it shows.<span class="t-mark">”</span></div>
+        </div>
+        <div class="t-slide">
+          <div class="t-quote"><span class="t-mark">“</span>The work is careful; the experience is cinematic.<span class="t-mark">”</span></div>
+        </div>
+        <div class="t-slide">
+          <div class="t-quote"><span class="t-mark">“</span>Every visit feels considered — from the scent in the air to the timing of the ritual.<span class="t-mark">”</span></div>
+        </div>
+      </div>
+      <div class="t-dots">
+        <button class="t-dot active" data-idx="0" aria-label="Testimonial 1"></button>
+        <button class="t-dot" data-idx="1" aria-label="Testimonial 2"></button>
+        <button class="t-dot" data-idx="2" aria-label="Testimonial 3"></button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="mono red contact-kicker reveal">Visit the Salon</div>
+      <h2 class="display contact-title reveal">
+        Step<br><span class="italic red">inside.</span>
+      </h2>
+
+      <div class="ft-grid">
+        <div class="reveal">
+          <div class="mono mono-sm red mb">ADDRESS</div>
+          <address class="ft-body">
+            201-391 Coverdale Rd<br>
+            Riverview, New Brunswick<br>
+            E1B 3J6, Canada
+          </address>
+        </div>
+        <div class="reveal">
+          <div class="mono mono-sm red mb">HOURS</div>
+          <div class="ft-body">
+            Mon – Fri · 9:00a – 8:00p<br>
+            Saturday · 9:00a – 6:00p<br>
+            Sunday · Closed
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="mono mono-sm red mb">CONNECT</div>
+          <div class="ft-body">
+            <a href="tel:+15063866060">506-386-6060</a><br>
+            <a href="https://instagram.com/luxebeautywellnessco" target="_blank" rel="noreferrer">@luxebeautywellnessco</a><br>
+            Bookings &amp; cancellations only via phone or client portal
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="mono mono-sm red mb">RESERVE</div>
+          <a href="https://www.phorest.com/salon/luxebeautywellnessco" target="_blank" rel="noreferrer" class="mono btn-book-red">Book online ↗</a>
+        </div>
+      </div>
+
+      <div class="ft-policy reveal">
+        <div class="mono mono-sm red mb">CANCELLATION POLICY</div>
+        <p>
+          A minimum of 48 hours’ notice is required to cancel or reschedule. Late cancellations and no-shows are charged $75 or 50% of the scheduled service total (whichever is greater). Cancellations are accepted only through your client profile, via the link in your email/text confirmation, or by calling 506-386-6060 — not through social media or individual staff.
+        </p>
+      </div>
+
+      <div class="ft-bottom">
+        <div class="ft-mark"><img src="assets/logo-without-slogan.png" alt="Luxe Beauty & Wellness Co."></div>
+        <div class="ft-fine mono mono-sm">
+          <span>© MMXXVI — Luxe Beauty &amp; Wellness Co. Inc.</span>
+          <span>Bookings powered by Phorest · Payments by Square</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Custom cursor -->
+<div id="cursor-dot" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

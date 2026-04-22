@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+
+# Claude project / memory
+.claude/
+CLAUDE.md
+
+# Project — raw client source material and archived builds
+_legacy/
+uploads/
+
+# Archives
+*.zip
+
+# Logs
+*.log
