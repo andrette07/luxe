@@ -14,6 +14,13 @@ CLAUDE.md
 # Project — raw client source material and archived builds
 _legacy/
 uploads/
+_client-changes-*/
+_tools/
+Changes-*.docx
+~$*
+
+# kept locally as backup, not pushed
+assets/Iconography-1-original.png
 
 # Archives
 *.zip

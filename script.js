@@ -77,18 +77,6 @@
     });
   });
 
-  /* ---------- Testimonials auto-rotate ---------- */
-  const slides = $$('.t-slide');
-  const dots   = $$('.t-dot');
-  let tIdx = 0;
-  const setSlide = (i) => {
-    tIdx = (i + slides.length) % slides.length;
-    slides.forEach((s, k) => s.classList.toggle('active', k === tIdx));
-    dots.forEach((d, k) => d.classList.toggle('active', k === tIdx));
-  };
-  dots.forEach(d => d.addEventListener('click', () => setSlide(parseInt(d.dataset.idx, 10))));
-  if (slides.length) setInterval(() => setSlide(tIdx + 1), 6000);
-
   /* ---------- Hero clock ---------- */
   const clock = $('#hero-clock');
   if (clock) {
